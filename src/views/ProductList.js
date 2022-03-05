@@ -221,7 +221,7 @@ const ProductList = () => {
         <Modal
           show={productShowModal}
           modalUI={addModal()}
-          title="Add Product"
+          title={editProduct?"Edit Product":"Add Product"}
           handleClose={() => setProductShowModal(false)}
         />
         {/* Add product modal */}
