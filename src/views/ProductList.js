@@ -49,7 +49,7 @@ const ProductList = () => {
           }
         />
         <InputField
-          type="text"
+          type="textarea"
           value={productInfo.description}
           placeholder="Description"
           label="Description*"
